@@ -50,8 +50,8 @@ const questions = [
         type: 'list',
         name: 'License',
         message: 'What license do you want to use?',
-        choices:['1', '2', '3'],
-        default: '1'
+        choices:['None', 'Apache License 2.0', 'GNU General Public License v3.0', 'MIT License', 'BSD 2-Clause "Simplified" License', 'BSD 3-Clause "New" or "Revised" License', 'Boost Software License 1.0', 'Creative Common Zero v1.0 Universal', 'Eclipse Public License 2.0', 'GNU Affero General Public License v3.0', 'GNU General Public License v2.0', 'GNU Lesser General Public License v2.0', 'Mozilla Public License', 'The Unlicense'],
+        default: 'None'
     },
 
     {
