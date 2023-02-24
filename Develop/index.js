@@ -1,4 +1,6 @@
 // TODO: Include packages needed for this application
+const { generateMarkdown } = require('./utils/generateMarkdown.js');
+
 const inquirer = require('inquirer');
 // TODO: Create an array of questions for user input
 const questions = [
@@ -42,7 +44,7 @@ const questions = [
         type: 'input',
         name: 'Tests',
         message: 'What are some tests you have created for your project?'
-    }
+    },
 
     {
         type: 'list',
